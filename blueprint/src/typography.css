@@ -6,9 +6,9 @@
 -------------------------------------------------------------- */
 
 /* Default font settings. 
-   The font-size percentage is of 16px. (0.75 * 16px = 12px) */
+   The font-size is of 1em (16px). */
 body { 
-  font-size: 75%;
+  font-size: 1em;
   color: #222; 
   background: #fff;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -51,7 +51,7 @@ dfn         { font-weight: bold; }
 sup, sub    { line-height: 0; }
 
 abbr, 
-acronym     { border-bottom: 1px dotted #666; }
+acronym     { border-bottom: 0.0625em dotted #666; }
 address     { margin: 0 0 1.5em; font-style: italic; }
 del         { color:#666; }
 
@@ -80,7 +80,7 @@ dd          { margin-left: 1.5em;}
 table       { margin-bottom: 1.4em; width:100%; }
 th          { font-weight: bold; }
 thead th 		{ background: #c3d9ff; }
-th,td,caption { padding: 4px 10px 4px 5px; }
+th,td,caption { padding: .25em .625em .25em .3125em; }
 tr.even td  { background: #e5ecf9; }
 tfoot       { font-style: italic; }
 caption     { background: #eee; }
