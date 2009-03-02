@@ -22,12 +22,15 @@ body { text-align: center; }
 * html div.span-21, * html div.span-22, * html div.span-23, 
 * html div.span-24 { overflow-x: hidden; }
 
+/* Fixes IE5/6 resize jump from medium to large text */
+html { font-size: 100%; }
+
 
 /* Elements
 -------------------------------------------------------------- */
 
 /* Fixes incorrect styling of legend in IE6. */
-* html legend { margin:0px -8px 16px 0; padding:0; }
+* html legend { margin:-1.125em -.5em 1em 0; padding:0; }
 
 /* Fixes incorrect placement of ol numbers in IE6/7. */
 ol { margin-left:2em; }
@@ -40,7 +43,7 @@ sub { vertical-align: text-bottom; }
 html>body p code { *white-space: normal; } 
 
 /* IE 6&7 has problems with setting proper <hr> margins. */
-hr  { margin: -8px auto 11px; }
+hr  { margin: -.5em auto .6875em; }
 
 
 /* Clearing 
